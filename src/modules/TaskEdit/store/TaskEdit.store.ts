@@ -1,5 +1,5 @@
 import { action, computed, makeObservable, observable } from 'mobx';
-import { DEFAULT_VALUES } from '../components';
+import { DEFAULT_VALUES } from '../components/TaskEditForm/TaskEdit.utils';
 import { TaskEntity } from 'domains/Task.entity';
 import { TaskAgentInstance } from 'http/index';
 import { mapTpInternalTask } from 'helpers/index';
